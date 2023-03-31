@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LayoutTable">
+
+    <TableRow
+        android:layout_weight="1">
+
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/tableEt1"
+            android:layout_span="5"
+            android:hint="숫자1 입력"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1">
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/tableEt2"
+            android:layout_span="5"
+            android:hint="숫자2 입력"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1">
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/tableBtn0"
+            android:layout_margin="5dp"
+            android:text="0"/>
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/tableBtn1"
+            android:layout_margin="5dp"
+            android:text="1"/>
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/tableBtn2"
+            android:layout_margin="5dp"
+            android:text="2"/>
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/tableBtn3"
+            android:layout_margin="5dp"
+            android:text="3"/>
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/tableBtn4"
+            android:layout_margin="5dp"
+            android:text="4"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/tableBtn5"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="5"/>
+        <Button
+            android:id="@+id/tableBtn6"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="6"/>
+        <Button
+            android:id="@+id/tableBtn7"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="7"/>
+        <Button
+            android:id="@+id/tableBtn8"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="8"/>
+        <Button
+            android:id="@+id/tableBtn9"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="9"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/tableBtnAdd"
+            android:layout_weight="1"
+            android:layout_span="5"
+            android:layout_margin="5dp"
+            android:text="더하기"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/tableBtnSub"
+            android:layout_weight="1"
+            android:layout_span="5"
+            android:layout_margin="5dp"
+            android:text="빼기"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/tableBtnMul"
+            android:layout_weight="1"
+            android:layout_span="5"
+            android:layout_margin="5dp"
+            android:text="곱하기"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/tableBtnDiv"
+            android:layout_weight="1"
+            android:layout_span="5"
+            android:layout_margin="5dp"
+            android:text="나누기"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/tableTv1"
+            android:text="계산 결과 = "/>
+    </TableRow>
+
+</TableLayout>

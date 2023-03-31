@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">5주차 강의 모음</string>
+
+    <string name="btn_layout_linear_1">기본 Linear layout</string>
+    <string name="btn_layout_linear_2">중복 Linear layout</string>
+    <string name="btn_layout_linear_java">Linear layout java</string>
+    <string name="btn_layout_relative">Relative layout</string>
+    <string name="btn_layout_table">Table layout</string>
+
+    <string name="btn_size">100dp</string>
+    <string name="btn_text">버튼</string>
+    <string name="btn1_text">버튼1</string>
+    <string name="btn2_text">버튼2</string>
+    <string name="btn3_text">버튼3</string>
+    <string name="btn4_text">버튼4</string>
+    <string name="btn5_text">버튼5</string>
+    <string name="btn6_text">버튼6</string>
+    <string name="tv_text">텍스트 뷰</string>
+
+    <string name="tv_call">전화번호</string>
+</resources>

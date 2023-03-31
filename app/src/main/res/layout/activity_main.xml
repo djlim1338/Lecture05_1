@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnLayoutLinear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text ="@string/btn_layout_linear_1"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/btnLayoutLinear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text ="@string/btn_layout_linear_2"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/btnLayoutLinearJava"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text ="@string/btn_layout_linear_java"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/btnLayoutRelative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text ="@string/btn_layout_relative"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/btnLayoutTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text ="@string/btn_layout_table"
+        android:layout_margin="5dp"/>
+
+</LinearLayout>
